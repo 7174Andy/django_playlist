@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+#circle-btn { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.btn-container {
+  position: relative;  
+}
+
+button {
+  border: 0;
+  border-radius: 50px;
+  color: white;
+  background: #5f55af;
+  padding: 20px 70px 20px 70px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #f72585 50%, #5f55af 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition:all 2s ease;
+}
+
+svg {
+  background: #f72585;
+  padding: 8px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0%;
+}
+
+button:hover {
+   background-position: left bottom;
+}
+
+.title-box {
+  text-align: left;
+  margin-bottom: 20px;
+  background-color: #5f55af;
+  color: #FFFFFF;
+  padding: 10px;
+  font-family: "Audiowide";
+}
+
+.dropdown-from {
+  position: absolute;
+  left: 25%;
+  top: 50%
+}
+
+.dropdown-to {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+}
